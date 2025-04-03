@@ -3,3 +3,22 @@
 
 # 编译文件忽略
 bin/
+
+# 忽略日志
+logs/
+
+# 临时忽略内容
+configs
+
+internal/core/cache
+internal/core/config
+internal/core/db
+internal/core/event
+
+internal/system/cluster
+internal/system/orm
+internal/system/redis
+
+docker-compose.yml
+Dockerfile
+init-mysql.sql
