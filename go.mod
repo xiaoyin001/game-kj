@@ -1,6 +1,6 @@
 module github.com/xiaoyin001/game-kj
 
-go 1.23.0
+go 1.22.12
 
 require (
 	go.uber.org/zap v1.27.0

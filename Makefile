@@ -1,3 +1,4 @@
+include mk/env.mk
 
 # make build-kj CMDTAG=xxx 构建指定服务
 # make build-kj 构建所有服务
