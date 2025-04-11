@@ -20,4 +20,11 @@ wget https://go.dev/dl/go${VER}.linux-amd64.tar.gz && tar xf go${VER}.linux-amd6
 sudo rm -rf /usr/local/go && sudo mv go /usr/local && rm -rf go${VER}.linux-amd64.tar.gz
 ```
 
+3. 如果是国内的网络环境，设置使用国内的代理
+``` shell
+# https://goproxy.cn/
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
 
