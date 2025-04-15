@@ -15,7 +15,7 @@ export PATH=$PATH:$GOROOT:$GOPATH:$GOBIN
 2. go语言包
 ``` shell
 # 当前安装的go版本【linux-amd64】
-VER=1.22.12
+VER=1.23.1
 wget https://go.dev/dl/go${VER}.linux-amd64.tar.gz && tar xf go${VER}.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo mv go /usr/local && rm -rf go${VER}.linux-amd64.tar.gz
 ```

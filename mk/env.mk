@@ -1,6 +1,6 @@
 
 # 安装指定go版本
-GO_VERSION=1.22.12
+GO_VERSION=1.23.1
 install-go:
 	@wget https://studygolang.com/dl/golang/go${GO_VERSION}.linux-amd64.tar.gz
 	@tar xf go${GO_VERSION}.linux-amd64.tar.gz
